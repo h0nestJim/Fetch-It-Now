@@ -1,0 +1,204 @@
+    /***************MAIN TAG STYLING*****************/
+    
+    body {
+        background-color: #52de97;
+    }
+    /***************DIV/SECTION STYLING*****************/
+    
+    .coloured-section {
+        background-color: #52de97;
+    }
+    
+    .white-section {
+        background-color: white;
+    }
+    
+    .promo {
+        padding: 15% 5% 15%;
+    }
+    /***************CLASS STYLING***************/
+    
+    .heading {
+        font-family: 'Paytone One', sans-serif;
+        color: white;
+        font-size: 3rem;
+    }
+    
+    .subheading {
+        font-family: 'Paytone One', sans-serif;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        padding: 3%;
+    }
+    
+    .alt-heading {
+        font-family: 'Paytone One', sans-serif;
+        color: #2C7873;
+        text-align: center;
+        padding-top: 5%;
+        font-size: 2rem;
+    }
+    
+    .small-heading {
+        color: #2C7873;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .card-heading {
+        color: #2C7873;
+        font-weight: 500;
+    }
+    
+    .card-rel {
+        position: relative;
+    }
+    
+    .brand-logo {
+        font-family: 'Paytone One', sans-serif;
+    }
+    
+    .main-text {
+        font-family: 'Prompt', sans-serif;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .main-text-alt {
+        font-family: 'Prompt', sans-serif;
+        color: #2C7873;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nav-button {
+        background-color: #2C7873;
+        font-family: 'Prompt', sans-serif;
+        color: white;
+    }
+    
+    .nav {
+        background-color: #45eba5;
+    }
+    
+    .sidenav {
+        background-color: white;
+        text-align: center;
+    }
+    
+    .sidenav img {
+        width: 75%;
+        padding: 10%;
+    }
+    
+    nav .nav-logo {
+        height: 80%;
+        padding: 10px 20px 5px;
+    }
+    
+    .col img {
+        width: 100%;
+        padding: 5%;
+    }
+    
+    .side-nav i.icon-blue {
+        color: #1d566e;
+    }
+    
+    i.promo-icon {
+        font-size: 6rem;
+        color: #2C7873;
+        text-align: center;
+        display: block;
+    }
+    
+    i.search-icon {
+        color: #2C7873;
+    }
+    
+    .address-form {
+        text-align: center;
+        background-color: aliceblue;
+        border-radius: 15px;
+        padding: 25px;
+    }
+    
+    .input-white {
+        background-color: white;
+    }
+    
+    .store-img {
+        opacity: 0.5;
+    }
+    
+    .coming-soon {
+        color: #2C7873;
+        text-align: center;
+        display: block;
+        opacity: 0.8;
+    }
+    
+    .sitting-img {
+        width: 50%;
+        margin: auto;
+        padding: 5%;
+    }
+    
+    .message-banner-hide {
+        visibility: hidden;
+    }
+    
+    .message-banner-show {
+        visibility: visible;
+    }
+    
+    .age-restrict {
+        color: #c43939;
+        font-family: 'Prompt', sans-serif;
+        text-align: center;
+    }
+    
+    .helper-text {
+        color: #c43939;
+        font-family: 'Prompt', sans-serif;
+        text-align: center;
+    }
+    
+    a.anchor {
+        display: block;
+        position: relative;
+        top: -40px;
+        visibility: hidden;
+    }
+    
+    iframe {
+        width: 100%;
+    }
+    
+    i.icon-white {
+        color: white;
+    }
+    
+    .carousel {
+        min-height: 400px;
+        display: block;
+    }
+    
+    .carousel .carousel-item {
+        width: 250px;
+    }
+    
+    .carousel .card button {
+        margin-bottom: 10%;
+    }
+    
+    .carousel .card img {
+        padding: 10%;
+    }
+    
+    .hidden-shop {
+        display: none;
+    }

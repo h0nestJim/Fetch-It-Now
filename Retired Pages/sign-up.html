@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Prompt&display=swap" rel="stylesheet">
+    <link rel='icon' href='images/favicon.ico' type='image/x-icon/'>
+    <title>Fetch-It - Fetch Groceries</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper nav">
+                <img class="nav-logo" src="images/fetch-sitting-white-no-bag.png" href="index.html">
+                <a href="index.html" class="brand-logo styled-heading">
+                    Fetch-It.
+                </a>
+
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i
+                        class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+
+                    <li><a class="waves-effect waves-light btn nav-button" href="#why-us"><i
+                                class="material-icons left">live_help</i>
+                            About</a></li>
+                    <li><a class="waves-effect waves-light btn nav-button" href="#sign-up"><i
+                                class="material-icons left">person_add</i>
+                            Join Us</a></li>
+                    <li><a class="waves-effect waves-light btn nav-button" href="#"><i
+                                class="material-icons left">home</i>Login</a></li>
+                    <li><a class="waves-effect waves-light btn nav-button" href="#where-shop"><i
+                                class="material-icons left">shopping_basket</i>Where to Shop</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <img src="images/fetch-sitting-green.png">
+        <p class="main-text-alt">Need any help?</p>
+        <li><a class="waves-effect waves-light btn nav-button" href="#why-us"><i
+                    class="material-icons left">live_help</i>
+                About</a></li>
+        <li><a class="waves-effect waves-light btn nav-button" href="#sign-up"><i
+                    class="material-icons left">person_add</i>
+                Join Us</a></li>
+        <li><a class="waves-effect waves-light btn nav-button" href="#"><i class="material-icons left">home</i>Login</a>
+        </li>
+        <li><a class="waves-effect waves-light btn nav-button" href="#where-shop"><i
+                    class="material-icons left">shopping_basket</i>Where to Shop</a></li>
+    </ul>
+
+    <!--Main Content-->
+
+    <section id="header" class=coloured-section>
+        <div class='container'>
+            <div class="row">
+                <div class="col s12 m12">
+                    <h1 class="heading">Signing up to Fetch-It!</h1>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col s12 m6"><img src="images/fetch-white.png"></div>
+                <div class="col s12 m6">
+                    <h2 class="subheading">Fetch Products from Store to Door</h2>
+                    <p class="main-text">Use the sign up sheet to create an account!</p>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <form class="address-form" action="/sign" method="post" class="col s10 m8">
+                    <div class="row">
+                        <div class="input-field col s12 m6">
+                            <input id="user_id" name="user_id" placeholder="Fetch123" type="text" class="validate">
+                            <label for="first_name">User Name</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input id="phone" name="phone" type="text" class="validate" placeholder="077...">
+                            <label for="phone">Mobile Number</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 m6">
+                            <input id="f_name" name="f_name" placeholder="John" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input id="s_name" name="s_name" placeholder="Smith" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12 m6">
+                            <input id="pw" name="pw" placeholder="8 characters" type="password" class="validate">
+                            <label for="password">Create Password</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input id="pwconfirm" name="pwconfirm" placeholder="Confirm Password" type="password" class="validate">
+                            <label for="password">Confirm Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 m6">
+                            <input id="address_line" name="address_line" type="text" class="validate" placeholder="15 Station Road">
+                            <label for="phone">Address Line</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <input id="postcode" name="postcode" type="text" class="validate" placeholder="TA1..">
+                            <label for="postcode">Postcode</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="input-field col s12 m12">
+                            <div class="input-field col s12">
+                                <select>
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                                <label>Materialize Select</label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="input-field col s12 m12">
+                            <input id="dob" name="dob" type="text" class="datepicker" placeholder="For security, you must be 18 or over.">
+                            <label for="dob">Date of Birth</label>
+                        </div>
+                    </div>
+                    <button class="waves-effect waves-light btn-large center"><i
+                            class="material-icons right ">redeem</i>Get Started!</button>
+                </form>
+
+
+            </div>
+        </div>
+
+
+
+        </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+    <script src="scripts/script.js "></script>
+</body>
+
+</html>
